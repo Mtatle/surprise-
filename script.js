@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Main interactive planets (label 'surprise' instead of 'video')
   const ITEMS = [
-    { label:'surprise', type:'video',   src:'videos/planet1.mp4' },
+    { label:'Kika', type:'video',   src:'videos/planet1.mp4' },
     { label:'Thandeka', type:'message', message:'Thandeka' },
     { label:'Simon',    type:'message', message:'Simon' },
     { label:'Nadir',    type:'message', message:'Nadir' },
