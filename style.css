@@ -47,9 +47,14 @@ body {
   z-index: 200;
 }
 .modal-content {
-  background: #fff; padding: 20px; border-radius: 8px;
-  max-width: 80%; max-height: 80%; overflow: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
   position: relative;
+  max-width: 400px;      /* narrower box */
+  width: 90%;            /* but responsive */
+  max-height: 80%;
+  overflow: auto;
 }
 .modal .close {
   position: absolute; top:10px; right:15px;
