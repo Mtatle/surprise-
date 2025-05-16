@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Audio settings
   explosionSound.volume = 0.2;
-  bgMusic.volume        = 0.3;
+  bgMusic.volume        = 0.2;
 
   // Interactive planets
   const ITEMS = [
