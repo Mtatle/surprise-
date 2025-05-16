@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Interactive planets
   const ITEMS = [
-    { label:'Kika',      type:'video',   src:'videos/video.mp4' },
+    { label:'Kika',      type:'video',   src:'videos/planet1.mp4' },
     { label:'Thandeka',  type:'message', message:`Dear Kika,\nA person energy and aura never lies. I could tell from our first meeting (my agent interview) that you had a pure and loving, altruistic aura, and it’s been proven true in every interaction since then. Wishing you a happy birthday and a blessed year.` },
     { label:'Simon',     type:'message', message:`Happy Birthday Kika! May only happiness and health come your way. Thank you for being the best team lead anyone could wish for! Thank you for teaching us how to be patient and hardworking. Lots of adventures and warm teas on your next circle around the sun.` },
     { label:'Nadir',     type:'message', message:`Happy birthday Kika!! You’re the sun in our little solar system, always giving us energy, good vibes, and keeping us from drifting off into the abyss. We’d be lost without you! Wishing you an amazing day filled with all the best things, a warm cup of tea and hopefully a little well-deserved time off. Free bogo` },
