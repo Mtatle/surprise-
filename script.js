@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Interactive planets
   const ITEMS = [
-    { label: 'Kika', type: 'video',   src: 'videos/video.mp4' },
+    { label: 'Kika', type: 'video',   src: 'videos/planet1.mp4' },
     { label: 'Thandeka', type: 'message', message: 
 `Dear Kika,
 A person energy and aura never lies. I could tell from our first meeting (my agent interview) that you had a pure and loving, altruistic aura, and it’s been proven true in every interaction since then. Wishing you a happy birthday and a blessed year.`},
