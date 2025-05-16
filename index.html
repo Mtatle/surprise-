@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Epic Space Scene</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- START OVERLAY -->
+  <div id="startScreen">
+    <button id="startBtn">Start Journey</button>
+  </div>
+
+  <!-- CANVAS HOLDER -->
+  <div id="container"></div>
+
+  <!-- VIDEO MODAL -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeVideoModal()">&times;</span>
+      <video id="planetVideo" controls width="640"></video>
+    </div>
+  </div>
+
+  <!-- MESSAGE MODAL -->
+  <div id="messageModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeMessageModal()">&times;</span>
+      <p id="planetMessage"></p>
+    </div>
+  </div>
+
+  <!-- SOUND EFFECTS -->
+  <audio id="explosionSound" src="audio/supernova.mp3"></audio>
+  <audio id="bgMusic" src="audio/magical.mp3" loop></audio>
+
+  <!-- LIBRARIES -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
