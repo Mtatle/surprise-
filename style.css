@@ -1,58 +1,57 @@
-/* full-screen animated gradient background */
+/* load Montserrat and apply globally */
 body {
-    margin: 0;
-    overflow: hidden;
-    height: 100vh;
-    background: linear-gradient(120deg, #020021, #2b2a4e, #593685, #ae80f0);
-    background-size: 800% 800%;
-    animation: gradient 30s ease infinite;
-    font-family: sans-serif;
-  }
-  @keyframes gradient {
-    0%   { background-position:   0% 50%; }
-    50%  { background-position: 100% 50%; }
-    100% { background-position:   0% 50%; }
-  }
-  
-  /* transparent Three.js canvas over gradient */
-  #container canvas {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-  }
-  
-  /* START OVERLAY */
-  #startScreen {
-    position: fixed; top:0; left:0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.9);
-    display: flex; align-items: center; justify-content: center;
-    z-index: 100;
-  }
-  #startBtn {
-    padding: 20px 40px;
-    font-size: 28px;
-    background: #ffdd33;
-    border: none; border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 0 30px rgba(255,221,51,0.8);
-  }
-  
-  /* MODALS */
-  .modal {
-    position: fixed; top:0; left:0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.85);
-    display: none; align-items: center; justify-content: center;
-    z-index: 200;
-  }
-  .modal-content {
-    background: #fff; padding: 20px; border-radius: 8px;
-    max-width: 80%; max-height: 80%; overflow: auto;
-    position: relative;
-  }
-  .modal .close {
-    position: absolute; top:10px; right:15px;
-    font-size: 24px; cursor: pointer;
-  }
-  
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(120deg, #020021, #2b2a4e, #593685, #ae80f0);
+  background-size: 800% 800%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0%   { background-position:   0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position:   0% 50%; }
+}
+
+#container canvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+/* START OVERLAY */
+#startScreen {
+  position: fixed; top:0; left:0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 100;
+}
+#startBtn {
+  padding: 20px 40px;
+  font-size: 28px;
+  background: #ffdd33;
+  border: none; border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 30px rgba(255,221,51,0.8);
+}
+
+/* MODALS */
+.modal {
+  position: fixed; top:0; left:0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: none; align-items: center; justify-content: center;
+  z-index: 200;
+}
+.modal-content {
+  background: #fff; padding: 20px; border-radius: 8px;
+  max-width: 80%; max-height: 80%; overflow: auto;
+  position: relative;
+}
+.modal .close {
+  position: absolute; top:10px; right:15px;
+  font-size: 24px; cursor: pointer;
+}
