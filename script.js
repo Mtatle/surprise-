@@ -25,13 +25,13 @@ window.addEventListener('DOMContentLoaded', () => {
     { label: 'Kika', type: 'video',   src: 'videos/video.mp4' },
     { label: 'Thandeka', type: 'message', message: 
 `Dear Kika,
-A person energy and aura never lies. I could tell from our first meeting (my agent interview) that you had a pure and loving, altruistic aura, and it’s been proven true every interaction since then. Wishing you a happy birthday and a blessed year.`},
+A person energy and aura never lies. I could tell from our first meeting (my agent interview) that you had a pure and loving, altruistic aura, and it’s been proven true in every interaction since then. Wishing you a happy birthday and a blessed year.`},
     { label: 'Simon',   type: 'message', message: 
-`Happy Birthday Kika! May only happiness and health come your way. Thank you for being the best team lead anyone could wish for! Thank you for teaching us how to be patient and hard working. A lots of adventures and warm teas on your next circle around the sun.`},
+`Happy Birthday Kika! May only happiness and health come your way. Thank you for being the best team lead anyone could wish for! Thank you for teaching us how to be patient and hardworking. Lots of adventures and warm teas on your next circle around the sun.`},
     { label: 'Nadir',   type: 'message', message: 
 `Happy birthday Kika!! You’re the sun in our little solar system, always giving us energy, good vibes, and keeping us from drifting off into the abyss. We’d be lost without you! Wishing you an amazing day filled with all the best things, a warm cup of tea and hopefully a little well-deserved time off. Free bogo`},
     { label: 'Mohammed', type: 'message', message:
-`Happy Birthday!! Today I wish you goodness, kindness and love. You don't deserve less than these. Looking back and remembering the day I started working here and the day I moved to ops. Everything you taught me and everything we've been through in such a short period of time. No amount of gratitude can be enough. You are a wonderful person. We love you KIKA!`}
+`Happy Birthday!! Today I wish you goodness, kindness and love. You don't deserve less than these. Looking back and remembering the day I started working here and the day I moved to ops. Everything you taught me and everything we've been through in such a short period. No amount of gratitude can be enough. You are a wonderful person. We love you KIKA!`}
   ];
 
   const COLORS = [0xff6666, 0x66ffcc, 0x66ccff, 0x8866ff, 0xffcc66];
